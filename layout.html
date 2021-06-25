@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout Properties</title>
+  <link rel="stylesheet" href="assets/styles/layout.css">
+</head>
+<body>
+  <div class="header">
+    <h1>my website</h1>
+    <div class="sns">
+      <a href="#">facebook</a>
+      <a href="">twitter</a>
+      <a href="#">instagram</a>
+    </div>
+  </div>
+  <div class="nav">
+    <img src="assets/images/car.jpg" alt="logo">
+    <ul>
+      <li><a href="#">home</a></li>
+      <li><a href="#">about</a></li>
+      <li><a href="#">contact</a></li>
+    </ul>
+  </div>
+  <div class="main">
+    <div class="section">
+      <h2>table 3</h2>
+      <table >
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Email</th>
+          <th>Address</th>
+        </tr>
+  
+        <tr>
+          <td>joev</td>
+          <td rowspan="2">27</td>
+          <td colspan="2">aaaa@gmail.com</td>
+          <!-- <td></td> -->
+        </tr>
+  
+        <tr>
+          <td></td>
+          <!-- <td>18</td> -->
+          <td>car1234@gmail.com</td>
+          <td></td>
+        </tr>
+  
+      </table>
+    </div>
+    <div class="sidebar">
+      <h2>Registration form</h2>
+      <form action="https://kredo.jp" method="get">
+        <label for="fname">Your First Name:</label>
+        <input type="text" name="firstname" placeholder="tyoe your first name here" id="fname" required minlength="3" maxlength="10">
+    
+        <label for="lname">Your Last Name:</label>
+        <input type="text" name="lastname" placeholder="text your last name here" id="lname" required>
+    
+        <label for="email">Your Email:</label>
+        <input type="email" name="email" placeholder="text your email here" id="email">
+    
+        <label for="pword">Your password:</label>
+        <input type="password" name="password" placeholder="type your password here"
+        id="pword">
+    
+        <label for="age">Your Age:</label>
+        <input type="number" name="age" placeholder="type your age here" id="age" min="18" max="60">
+    
+        <label for="bday">Your Birth Date:</label>
+        <input type="date" name="birthday" id="bday
+
+        <label for="comment">Your comment:</label>
+        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="type your comment here"></textarea>
+    
+        <input type="submit" name="submit" value="OK">
+      </form> 
+      
+    </div>    
+    
+  </div>
+  <div class="footer">
+    <div class="static">
+      <h3>static</h3>
+    </div>
+
+    <div class="relative">
+      <h3>relative</h3>
+    </div>
+
+    <div class="fixed">
+      <h3>fixed</h3>
+    </div>
+
+    <div class="absolute">
+      <h3>absolute</h3>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error rem tempora voluptatibus. Architecto, adipisci? Aut nisi maiores recusandae eum fugit?</p>
+
+    <div class="relative2">
+      <h2>relative2</h2>
+      <div class="absolute">
+        <h3>absolute2</h3>
+      </div>
+  
+    </div>
+
+  </div>
+
+</body>
+</html>

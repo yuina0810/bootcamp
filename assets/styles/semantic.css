@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header{
+  border: 3px solid red;
+  height: 100px;
+}
+
+nav{
+  border: 3px solid red;
+  height: 70px;
+}
+
+main{
+  /* border: 3px solid red; */
+  width: 70%;
+  float: left;
+}
+
+section{
+  border: 3px dashed red;
+  height: 250px;
+}
+
+article{
+  border: 3px dashed red;
+  height: 250px;
+}
+
+aside{
+  border: 3px solid red;
+  height: 500px;
+  width: 30%;
+  float: left;
+}
+
+footer{
+  border: 3px solid red;
+  height: 50px;
+  clear: both;
+}

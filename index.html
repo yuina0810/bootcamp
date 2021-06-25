@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Website</title>
+  <link rel="stylesheet" href="assets/styles/style.css">
+
+  <!-- <style>
+    /* internal css */
+    /* h1{
+      background-color: aqua;
+    }
+    h2{
+      background-color: yellowgreen;
+    }
+  .heading2{
+    background-color: teal;
+  }
+    p{
+      background-color: tomato;
+    }
+    #para1{
+      background-color: magenta;
+
+    } */
+  </style> -->
+
+</head>
+<body>
+  <!-- heading elements -->
+  <div class="heading-box">
+     <h1>hello <span style="color: red;">w</span>orld!</h1>
+    <h2 class="heading2">heading 2</h2>
+    <h3>heading 3</h3>
+    <h4>heading 4</h4>
+    <h5>heading 5</h5>
+    <h6>heading 6 </h6>
+    <p><span>Lorem ipsum, dolor</span>  sit amet consectetur adipisicing elit. Recusandae voluptatum, placeat assumenda culpa ad alias, quo sint praesentium tempora est commodi explicabo, excepturi ullam enim sapiente odio necessitatibus veritatis deleniti!</p>
+    <a href="">learn more</a>
+<div class="box1">
+box1
+</div>
+<div class="box2">
+box2
+</div>
+
+</div>
+ 
+
+  <!-- hr element -->
+  <hr>
+  <hr>
+
+  <!-- paragraph element = -->
+  <p id="para1">This is a sample paragraph element</p>
+  <p>Lorem ipsum dolor sit amet.</p>
+<hr>
+
+  <!-- list elemnt -->
+  <div class="hobby">
+    <h2>ordered list</h2>
+  <ol>
+    <li>
+       <strong>Banana</strong> 
+        <ul>
+          <li>yellow banana</li>
+          <li>green banana</li>
+          <li>brown banana</li>
+        </ul>
+
+    </li>
+    <li><b>Chocolate</b>
+      </li>
+    <li>
+      <b>Milk</b>
+      </li>
+  </ol>
+</div>
+  
+<div class="skill">
+  <h2>unordered list</h2>
+  <ul>
+    <li>
+      <i>pasta</i>
+      </li>
+    <li>
+      <em>pastry</em>
+      
+      <ol>
+        <li>cake</li>
+        <li>jam</li>
+        <li>pie</li>
+      </ol>
+
+    </li>
+    <li>
+      <i>beer</i>
+      </li>
+  </ul>
+</div>
+
+
+  <!-- image element -->
+  <img src="assets/images/gar.jpg" alt="office garden photo" width="200px" height="150px">
+  <br>
+  <br>
+  <img src="assets/images/junk.jpg" alt="junk yeard photo" width = "175px" height="125px">
+
+  <!-- anchor element -->
+    <a href="https://facebook.com" target="_blank">click to facebook</a>
+    <a href="https://kredo.jp" target="_blank">click to kredo</a>
+    <a href="sample.html">click to sample page</a>
+    <a href="#top">click to top</a>
+
+    <!-- br element -->
+    <br>
+    <br>
+
+    <!-- b = bold i = italic strong = important em = emphasize -->
+
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, dicta.
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum aut tempora perspiciatis eum quis quos?
+
+  <!-- div elemnt -->
+  <div style="background-color: grey;">
+    <h2>This is a div element 1</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <a href="">facebook</a>
+    
+  </div>
+  <div>
+    This is a div element 2
+  </div>
+  <span style="background-color: aqua;">
+    <b> This is a span element 1</b>
+    <a href="#">twitter</a>
+    <p>Lorem, ipsum dolor.</p>
+   
+  </span>
+  <span>
+    This is a span element 2
+  </span>
+
+  <!-- form element -->
+  <h2>Registration form</h2>
+  <form action="https://kredo.jp" method="get">
+    <label for="fname">Your First Name:</label>
+    <input type="text" name="firstname" placeholder="tyoe your first name here" id="fname" required minlength="3" maxlength="10">
+
+    <label for="lname">Your Last Name:</label>
+    <input type="text" name="lastname" placeholder="text your last name here" id="lname" required>
+
+    <label for="email">Your Email:</label>
+    <input type="email" name="email" placeholder="text your email here" id="email">
+
+    <label for="pword">Your password:</label>
+    <input type="password" name="password" placeholder="type your password here"
+    id="pword">
+
+    <label for="age">Your Age:</label>
+    <input type="number" name="age" placeholder="type your age here" id="age" min="18" max="60">
+
+    <label for="bday">Your Birth Date:</label>
+    <input type="date" name="birthday" id="bday">
+
+    <p>choose your gender:</p>
+    <div>
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="female">Female</label>
+
+        <input type="radio" name="gender" value="LGBT" id="lgbt">
+        <label for="lgbt">LGBT</label>
+
+
+    </div>
+
+    <p>choose your favorite devices:</p>
+    <div>
+      <input type="checkbox" name="device" value="laptop" id="laptop">
+      <label for="laptop">Laptop</label>
+
+      <input type="checkbox" name="iPad" value="iPad" id="iPad">
+      <label for="iPad">iPad</label>
+
+      <input type="checkbox" name="tablet" value="tablet" id="tablet">
+      <label for="tablet">Tablet</label>
+
+
+    </div>
+
+    <label for="">Select your favorite car:</label>
+    <select name="car" id="car">
+      <option value="none">select a car</option>
+      <option value="honda">Honda</option>
+      <option value="ferrari">Ferrari</option>
+      <option value="subaru">Subaru</option>
+      <option value="ford">Ford</option>
+
+
+    </select>
+    <br>
+    <label for="comment">Your comment:</label>
+    <textarea name="comment" id="comment" cols="30" rows="10" placeholder="type your comment here"></textarea>
+
+    <input type="submit" name="submit" value="OK">
+    <button>send</button>
+  
+  </form>
+
+  <!-- table elements -->
+    <h2>table 1</h2>
+    <table border="1">
+      <tr>
+        <th colspan="3">1</th>
+        <!-- <th>2</th> -->
+        <!-- <th>3</th> -->
+      </tr>
+
+      <tr>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+      </tr>
+
+      <tr>
+        <th>7</th>
+        <th>8</th>
+        <th>9</th>
+      </tr>
+
+    </table>
+
+    <h2>table 2</h2>
+    <table border="1">
+      <tr>
+        <td>one</td>
+        <td>two</td>
+        <td rowspan="3">three</td>
+      </tr>
+
+      <tr>
+        <td>four</td>
+        <td>five</td>
+        <!-- <td>six</td> -->
+      </tr>
+
+      <tr>
+        <td>seven</td>
+        <td>eight</td>
+        <!-- <td>nine</td> -->
+      </tr>
+
+    </table>
+
+    <h2>table 3</h2>
+    <table border="1">
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Email</th>
+        <th>Address</th>
+      </tr>
+
+      <tr>
+        <td>joev</td>
+        <td rowspan="2">27</td>
+        <td colspan="2">aaaa@gmail.com</td>
+        <!-- <td></td> -->
+      </tr>
+
+      <tr>
+        <td>car</td>
+        <!-- <td>18</td> -->
+        <td>car1234@gmail.com</td>
+        <td>mandaue</td>
+      </tr>
+
+    </table>
+
+    <h2>table 4</h2>
+    <table border="1">
+      <tr>
+        <th></th>
+        <th>ABC</th>
+        <th>BBC</th>
+        <th>CNN</th>
+      </tr>
+
+      <tr>
+        <th>6pm-7pm</th>
+        <td rowspan="2">Movie</td>
+        <td>Comedy</td>
+        <td>News</td>
+
+      </tr>
+
+      <tr>
+        <th>7pm-9pm</th>
+        <!-- <td></td> -->
+        <td>Sport</td>
+        <td>current affairs</td>
+      </tr>
+    </table>
+
+    <h2>table 5</h2>
+    <table border="1">
+      <tr>
+        <th></th>
+        <th>9am</th>
+        <th>10am</th>
+        <th>11am</th>
+        <th>12am</th>
+
+      </tr>
+
+      <tr>
+        <th>Monday</th>
+        <td colspan="2">Geography</td>
+        <!-- <td></td> -->
+        <td>Math</td>
+        <td>Art</td>
+
+      </tr>
+      <tr>
+        <th>Tuesday</th>
+        <td colspan="3">Gym</td>
+        <!-- <td></td> -->
+        <!-- <td></td> -->
+        <td>Home Ec</td>
+
+      </tr>
+    </table>
+
+    <h2>table 6</h2>
+    <table border="1">
+      <tr>
+        <th colspan="6">My Work Plan for the Week</th>
+        <!-- <th></th> -->
+        <!-- <th></th> -->
+        <!-- <th></th> -->
+        <!-- <th></th> -->
+        <!-- <th></th> -->
+      </tr>
+
+      <tr>
+        <th></th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thusday</th>
+        <th>Friday</th>
+      </tr>
+
+      <tr>
+        <td>Activity</td>
+        <td>Meeting at ABC-123 Ltd</td>
+        <td>Bussiness Lunch at 1pm</td>
+        <td>Project due by 5pm</td>
+        <td>Web Conference in London</td>
+        <td>Early Finish (4pm)</td>
+      </tr>
+
+    </table>
+
+</body>
+</html>
